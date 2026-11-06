@@ -79,6 +79,7 @@ void main() {
         '/schedules',
         '/statistics',
         '/settings',
+        '/privacy',
         '/vehicle/v',
         '/vehicle/new',
         '/vehicle/v/edit',
@@ -90,6 +91,9 @@ void main() {
         appRouter.go(path);
         await tester.pumpAndSettle();
         expect(tester.takeException(), isNull, reason: '$theme $path');
+        if (path == '/privacy') {
+          expect(find.text('ServicePing Privacy Policy'), findsOneWidget);
+        }
         if (theme == 'light' && path == '/') {
           await tester.tap(find.text('Update odometer'));
           await tester.pumpAndSettle();

@@ -1,0 +1,33 @@
+{
+  "locale": "en-US",
+  "app_name": "ServicePing: Vehicle Tracker",
+  "category": "Auto & Vehicles",
+  "app_type": "App",
+  "package_name": "com.serviceping.service_ping",
+  "version": "1.0.0",
+  "build_number": 1,
+  "support_email": "support@serviceping.example",
+  "support_email_is_placeholder": true,
+  "privacy_policy_url": "REPLACE_WITH_PUBLIC_HTTPS_PRIVACY_POLICY_URL",
+  "developer_website": "",
+  "short_description_file": "short-description.txt",
+  "full_description_file": "full-description.txt",
+  "release_notes_file": "release-notes.txt",
+  "app_icon": "../branding/app-icon-512.png",
+  "feature_graphic": "../branding/feature-graphic-1024x500.png",
+  "screenshots": [
+    "../screenshots/play-store/01-dashboard.png",
+    "../screenshots/play-store/02-garage.png",
+    "../screenshots/play-store/03-schedules.png",
+    "../screenshots/play-store/04-history.png",
+    "../screenshots/play-store/05-statistics.png",
+    "../screenshots/play-store/06-manual-odometer.png",
+    "../screenshots/play-store/07-dark-mode.png"
+  ],
+  "ads": false,
+  "login_required": false,
+  "in_app_purchases": false,
+  "reviewer_access": "All functionality is available offline without authentication.",
+  "automatic_mileage_detection": false,
+  "publication_status": "Preparation only; not submitted or published."
+}

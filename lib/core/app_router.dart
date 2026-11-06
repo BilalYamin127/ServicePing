@@ -9,6 +9,7 @@ import '../views/history.dart';
 import '../views/schedules.dart';
 import '../views/statistics.dart';
 import '../views/settings.dart';
+import '../views/privacy.dart';
 
 final appRouter = GoRouter(
   routes: [
@@ -24,6 +25,7 @@ final appRouter = GoRouter(
         GoRoute(path: '/settings', builder: (c, s) => const SettingsView()),
       ],
     ),
+    GoRoute(path: '/privacy', builder: (c, s) => const PrivacyView()),
     GoRoute(path: '/vehicle/new', builder: (c, s) => const VehicleForm()),
     GoRoute(
       path: '/vehicle/:id/edit',
@@ -66,12 +68,23 @@ class AppShell extends StatelessWidget {
     final index = paths.indexOf(path);
     return Scaffold(
       appBar: AppBar(
-        title: const Row(
+        title: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(Icons.sensors, color: Color(0xfff58b3c)),
-            SizedBox(width: 8),
-            Text('ServicePing', style: TextStyle(fontWeight: FontWeight.w800)),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(7),
+              child: Image.asset(
+                'store/branding/app-icon-512.png',
+                width: 28,
+                height: 28,
+                semanticLabel: 'ServicePing logo',
+              ),
+            ),
+            const SizedBox(width: 8),
+            const Text(
+              'ServicePing',
+              style: TextStyle(fontWeight: FontWeight.w800),
+            ),
           ],
         ),
         actions: [

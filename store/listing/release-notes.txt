@@ -1,0 +1,6 @@
+Welcome to ServicePing 1.0!
+• Manage cars and motorcycles offline.
+• Log service records and maintenance costs.
+• Set date and mileage service targets.
+• Update your odometer manually and keep its history.
+• Explore maintenance statistics in light or dark mode.

@@ -1,0 +1,7 @@
+*.png binary
+*.pdf binary
+*.docx binary
+*.zip binary
+*.ttf binary
+# Preserve the original upstream font-license formatting.
+store/source/*-OFL.txt -whitespace

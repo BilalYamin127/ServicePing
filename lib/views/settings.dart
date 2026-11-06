@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import '../viewmodels/garage_view_model.dart';
 import 'widgets/form_fields.dart';
 
@@ -80,6 +81,16 @@ class SettingsView extends ConsumerWidget {
                 ),
               ],
             ),
+          ),
+        ),
+        const SizedBox(height: 16),
+        Card(
+          child: ListTile(
+            leading: const Icon(Icons.privacy_tip_outlined),
+            title: const Text('Privacy policy'),
+            subtitle: const Text('Read how your local records are handled.'),
+            trailing: const Icon(Icons.chevron_right),
+            onTap: () => context.push('/privacy'),
           ),
         ),
         const SizedBox(height: 16),

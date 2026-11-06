@@ -1,5 +1,7 @@
 # ServicePing — Vehicle Maintenance Tracker
 
+**Store launch kit:** [Logo, feature graphic, 7 screenshots, listing and privacy documents](store/README.md) · [Download ZIP](store/ServicePing-Store-Kit.zip) · [Upload guide](store/UPLOAD-GUIDE.md)
+
 An offline Flutter application for motorcycle and car owners. No accounts, Firebase, analytics, remote APIs, or automatic mileage detection.
 
 ## Run
@@ -51,6 +53,7 @@ lib/
     ├── schedules.dart
     ├── schedule_form.dart
     ├── statistics.dart
+    ├── privacy.dart                  # Offline policy from shared editable JSON
     ├── settings.dart
     └── widgets/
         └── form_fields.dart          # Reusable inputs, date picker, confirmations
@@ -98,3 +101,9 @@ The generated Android release configuration currently uses a debug signing key f
 ## Data and privacy
 
 All data resides in the app sandbox. Android automatic cloud backup is disabled. Uninstalling/clearing app data removes the garage. There is no export, synchronization, account recovery or telemetry. Device-level iOS backups follow the owner's system settings.
+
+## Store assets and privacy policy
+
+The `store/` folder includes a complete Google Play asset kit, numbered 1080 × 1920 screenshots captured from real Flutter widgets, editable documents and an offline review gallery. Matching branded launcher icons are installed for Android, iOS and web. Settings links to an offline privacy policy built from `store/source/policy.json`.
+
+The support email `support@serviceping.example` is a reserved temporary placeholder. Replace it, regenerate the policy/listing documents with `python3 tool/build_store_documents.py`, and rebuild the app before publication. The web-ready privacy policy is in `docs/privacy/index.html`; hosting has not been enabled. Follow `store/UPLOAD-GUIDE.md` for the public HTTPS policy URL, asset uploads and Data safety facts.

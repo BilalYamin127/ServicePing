@@ -1,0 +1,33 @@
+Keep every journey ready with ServicePing — your offline vehicle maintenance tracker for cars and motorcycles.
+
+Build a clear picture of your garage, from the last oil change to the next service date. Manage multiple vehicles, log maintenance and track expenses without creating an account.
+
+YOUR WHOLE GARAGE, IN ONE PLACE
+Add cars and motorcycles with their own service records, mileage and maintenance schedules. Save manufacturer, model and optional year and registration details. Choose kilometres or miles for each vehicle.
+
+RECORD THE WORK THAT MATTERS
+Log oil changes, air filters, tires, brakes, batteries, general servicing or a custom service type. Add the service date, odometer reading, cost and notes. Edit records when details change.
+
+PLAN YOUR NEXT SERVICE
+Set a next service date, an odometer target, or both. Maintenance becomes due when either threshold is reached. See the remaining distance and identify overdue work. Enable local notifications for date-based reminders on the days you choose.
+
+MILEAGE YOU CONTROL
+Update the odometer manually and keep a history of readings. Decrease protection helps prevent accidental lower entries. ServicePing checks mileage-based maintenance status when you update the reading; it does not automatically detect vehicle mileage.
+
+A HISTORY YOU CAN FIND
+Search service records and filter by vehicle and service type. See the mileage and cost of each service, plus the total for the records in view. Recording a completed scheduled service preserves the work in your history.
+
+UNDERSTAND YOUR MAINTENANCE COSTS
+View total expenses, completed services, the most recent service and upcoming maintenance. Explore a simple monthly maintenance cost chart for the last six months. Costs use the amounts you enter; the app does not convert currencies.
+
+OFFLINE BY DESIGN
+Your garage is stored on your device. No login, no ads and no cloud account are required. Choose light, dark or system appearance.
+
+GOOD TO KNOW
+• Odometer readings are always entered manually.
+• Date notification delivery depends on device permissions and operating-system settings. The nearest 64 future reminders are queued and refilled when you reopen the app.
+• No new maintenance interval is generated automatically.
+• There is no cloud backup, cross-device sync or account recovery. Removing the app or clearing its data removes local records; device-level backups follow system settings.
+• ServicePing organizes your records and reminders; follow your vehicle manufacturer's maintenance guidance.
+
+Make the next service easier to remember, and every past service easier to find.
