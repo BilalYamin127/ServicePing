@@ -1,0 +1,21 @@
+name: service_ping
+description: Offline vehicle maintenance tracker with MVVM architecture.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^3.0.3
+  hive_ce_flutter: ^2.3.1
+  flutter_local_notifications: ^19.5.0
+  timezone: ^0.10.1
+  intl: ^0.20.2
+  go_router: ^17.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
