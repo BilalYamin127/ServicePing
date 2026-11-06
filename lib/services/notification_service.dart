@@ -49,7 +49,7 @@ class NotificationService {
     tzdata.initializeTimeZones();
     await plugin.initialize(
       const InitializationSettings(
-        android: AndroidInitializationSettings('@drawable/ic_notification'),
+        android: AndroidInitializationSettings('ic_notification'),
         iOS: DarwinInitializationSettings(
           requestAlertPermission: false,
           requestBadgePermission: false,
